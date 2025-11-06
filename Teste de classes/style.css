@@ -11,33 +11,46 @@ button:disabled {
 }
 
 a:link {
-    color: black;
-
+  color: black;
 }
 
 a:visited {
-    color: chartreuse;
+  color: chartreuse;
 }
 
 a:hover {
-    color: yellow;
+  color: yellow;
 }
 
 a:active {
-    color: brown;
+  color: brown;
 }
 
 span:first-child {
-color: red;
+  color: red;
 }
 
-li:first-child{
-    color: aqua;
+li:first-child {
+  color: aqua;
 }
 
 li {
-    color: blue;
+  color: blue;
 }
-li:last-child{
-    color: purple;
+li:last-child {
+  color: purple;
+}
+table {
+  width: 100%;
+}
+table thead {
+  text-align: center;
+}
+
+table tbody tr td {
+  text-align: center;
+}
+
+tr:nth-child(2n) {
+  background-color: aqua;
 }
