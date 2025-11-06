@@ -1,0 +1,43 @@
+button {
+  color: aliceblue;
+  width: 100px;
+  border: none;
+  background-color: black;
+}
+button:disabled {
+  color: black;
+
+  background-color: red;
+}
+
+a:link {
+    color: black;
+
+}
+
+a:visited {
+    color: chartreuse;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: brown;
+}
+
+span:first-child {
+color: red;
+}
+
+li:first-child{
+    color: aqua;
+}
+
+li {
+    color: blue;
+}
+li:last-child{
+    color: purple;
+}
